@@ -12,14 +12,14 @@ window.addEventListener('load', () => {
     
     if(h > 12){
         h = h-12
-        hour.textContent = h;
+        hour.textContent = String(h).padStart(2, '0'    );
     }
 
     let m = now.getMinutes();
-    mint.textContent = m;
+    mint.textContent = String(m).padStart(2, '0');
 
     let s = now.getSeconds();
-    sec.textContent = s;
+    sec.textContent = String(s).padStart(2, '0');
 
     //Yae Date,Month or Year k leay START
     let d = now.getDate();

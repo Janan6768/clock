@@ -40,5 +40,17 @@ body {
     font-size: 15px;
     color: green;
   }
+  #start{
+    background-color: green;
+  }
+  #start:hover {
+    background-color: rgb(3, 146, 3);
+  }
+  #reset{
+    background-color: red;
+  }
+  #reset:hover {
+    background-color: rgb(225, 25, 25);
+  }
   
   
